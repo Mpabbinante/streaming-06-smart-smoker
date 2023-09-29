@@ -43,8 +43,10 @@ The project will perform the following tasks:
    5. Check for temperature alerts and log them accordingly.
    6. output into a log file ("SmartSmoker-temps.log") for detailed logs, including messages sent to queues, temperature alerts, and other events.
 -Consumer
-    1. Get information that was produced in the RabbitMQ server
-2. 
+   1. Get information that was produced in the RabbitMQ server
+   2. Process Temperature Data
+   3. Check for temperature alerts
+   4. output Log events to a log file("SmartSmoker-Consumer.log")
 # Screenshots
 -Running on machine 
 ![Alt text](<Producer running.PNG>)
