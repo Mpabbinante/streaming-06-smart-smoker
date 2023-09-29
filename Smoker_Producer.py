@@ -116,7 +116,7 @@ def main():
                 previous_food_b_temp = food_b_temp
 
                 # Wait for 30 seconds before processing the next batch of records
-                time.sleep(30)
+                time.sleep(.1)
                 # print a message to the console for the user
                 logging.info(f"Sent: Timestamp={timestamp}, Smoker Temp={smoker_temp}, Food A Temp={food_a_temp}, Food B Temp={food_b_temp}")
                 # print a reminder about how to cancel the program's run
